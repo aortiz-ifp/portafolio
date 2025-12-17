@@ -1,0 +1,263 @@
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+    background: navy;
+    color: skyblue;
+    font-family: Arial;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 130px;
+    margin: auto;
+    align-content: center;
+    letter-spacing: -5px;
+}
+
+.contenidor{
+    width: 1100px;
+    margin: 50px auto;
+}
+
+.efecte{
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin: 10px;
+}
+
+.efecte img{
+    width: 200px;
+}
+
+.efecte p{
+    text-align: center;
+}
+
+.efecte input{
+    width: 200px;
+}
+
+.desenfocar img{
+    -webkit-filter: blur(10px);
+       -moz-filter: blur(10px);
+         -o-filter: blur(10px);
+            filter: blur(10px);
+
+    filter: blur(10px);
+}
+
+.grisos img{
+    filter: grayscale(100%);
+}
+
+.ombra img{
+    filter: drop-shadow(6px 6px 6px purple);
+}
+
+.sepia img{
+    filter: sepia(100%);
+}
+
+.lluminositat img{
+    filter: brightness(200%);
+}
+
+.contrast img{
+    filter: contrast(40%);
+}
+
+.to img{
+    filter: hue-rotate(45deg);
+}
+
+.invertir img{
+    filter: invert(100%);
+}
+
+.saturar img{
+    filter: saturate(200%);
+}
+
+.opacitat img{
+    filter: opacity(0.5);
+}
+
+h1{
+    font-size: 48px;
+    background: #ccc;
+    clear: both;
+}
+
+.fruita{
+    background-image:url(../img/fresa.png);
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.superposada{
+    background-image:url(../img/limon.png);
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.multiplicar .superposada{
+    mix-blend-mode: multiply;
+}
+
+.trama .superposada{
+    mix-blend-mode: screen;
+}
+
+.superposar .superposada{
+    mix-blend-mode: overlay;
+}
+
+.enfosquir .superposada{
+    mix-blend-mode: darken;
+}
+
+.aclarir .superposada{
+    mix-blend-mode: lighten;
+}
+
+.colormesfosc .superposada{
+    mix-blend-mode: color-dodge;
+}
+
+.colormesclar .superposada{
+    mix-blend-mode: color-burn;
+}
+
+.llumintensa .superposada{
+    mix-blend-mode: hard-light;
+}
+
+.llumsuau .superposada{
+    mix-blend-mode: soft-light;
+}
+
+.diferencia .superposada{
+    mix-blend-mode: difference;
+}
+
+.exclusio .superposada{
+    mix-blend-mode: exclusion;
+}
+
+.to .superposada{
+    mix-blend-mode: hue;
+}
+
+.saturacio .superposada{
+    mix-blend-mode: saturation;
+}
+
+.color .superposada{
+    mix-blend-mode: color;
+}
+
+.lluminositat .superposada{
+    mix-blend-mode: luminosity;
+}
+
+
+
+#interruptor{
+  width: 50px;
+  height: 25px;
+  top: 10px;
+  background: lightgrey;
+  position: relative;
+  border-radius: 12.5px;
+  border: 1px solid lightgreen;
+  margin: auto;
+}
+
+label{
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: white;
+  position: absolute;
+  top: 2px; 
+  left: 3px;
+  border-radius: 12.5px; 
+  box-shadow: 3px 0 3px gray;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+input[type=checkbox]{
+  visibility: hidden;
+}
+
+input[type=checkbox]:checked+label{
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: green;
+  position: absolute;
+  top: 2px;
+  left: 27px;
+  box-shadow: -3px 0 3px grey;
+}
+
+#interruptor:hover{
+    transform: scale(90%);
+    transition: all 0.4s ease;
+    background: lightgreen;
+}
+
+
+
+
+input[type=range]{
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+}
+
+input[type="range"]:focus{
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-ms-track{
+  width: 100px;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+  border: 1px solid green;
+  height: 18px;
+  width: 16px;
+  border-radius: 6px;
+  background: lightgreen;
+  cursor: pointer;
+  box-shadow: 3px 1px 3px grey;
+  margin-top: -5px;
+  }
+
+input[type=range]::-webkit-slider-runnable-track{
+  width: 50%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 2px 1px 2px grey;
+  background: lightgray;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+  margin-top: 10px;
+}

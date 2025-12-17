@@ -1,0 +1,262 @@
+body{
+    background: #222;
+    font-family: helvetica;
+    margin: 0;
+}
+
+.menu{
+    background: black;
+    height: 50px;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    margin: 5px 20px 5px 20px;
+    background-image: url(./img/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    float: left;
+}
+
+.documentals, .pelicules, .series{
+    color: white;
+    float: left;
+    padding: 5px;
+    line-height: 40px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.docinteressants{
+    height: 600px;
+}
+
+.docvistos{
+    height: 600px;
+}
+
+.pelpendents{
+    height: 300px;
+}
+
+.pelvistes{
+    height: 300px;
+}
+
+.seriesseguint{
+    height: 300px;
+}
+
+.seriesvistes{
+    height: 300px;
+}
+
+.f1{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/1982Koyaanisqatsi.jpg);
+}
+
+.f2{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2004YTuQueSabes.jpg);
+}
+
+.f3{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2005Earthlings.jpg);
+}
+
+.f4{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2007Helvetica.jpg);
+}
+
+.f5{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2007Sicko.jpg);
+}
+
+.f6{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2008Zeitgeist2.jpg);
+}
+.f7{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2009ArtAndCopy.jpg);
+}
+
+.f8{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2009Home.jpg);
+}
+
+.f9{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2009RipARemixManifesto.jpg);
+}
+.f10{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2010ComprarTirarComprar.jpg);
+}
+
+.f11{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2010InsideJob.jpg);
+}
+
+.f12{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2011LaDoctrinaDeShock.jpg);
+}
+
+.f13{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2012SearchingForSugarMan.jpg);
+}
+
+.f14{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2012TheActOfKilling.jpg);
+}
+
+.f15{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/2013ElEspirituDel45.jpg);
+}
+
+.f16{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/XXXXpeli.jpg);
+}
+
+.f17{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/XXXXpeli.jpg);
+}
+
+.f18{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background: #444;
+}
+
+.f19{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background: #444;
+}
+
+.f20{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/XXXXserie.jpg);
+}
+
+.f21{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background-image: url(./img/XXXXserie.jpg);
+}
+
+.f22{
+    width: 175px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    float: left;
+    background: #999;
+}
+
+.f23{
+    width: 175px;
+    height: 260px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    float: left;
+    background: #999;
+}

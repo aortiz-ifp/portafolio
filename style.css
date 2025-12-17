@@ -1,0 +1,72 @@
+:root{
+    /*aqui hi van les variables*/
+}
+
+*{
+    /*aqui hi va el reset*/
+    margin: 0;
+    padding: 0;
+    border: 0:
+}
+
+@font-face {
+    /*aqui hi van les fonts personalitzades*/
+}
+
+    /*aqui hi van les propietats generals*/
+
+body{
+    background: lightblue;
+}
+
+li{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: red;
+    margin: 1rem;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+}
+
+a:visited{
+    color: white;
+}
+
+a:link{
+    line-height: 10rem;
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    width: 36rem;
+    margin: auto;
+    line-height: 10rem;
+}
+
+li:hover{
+    opacity: 50%;
+}
+
+/*aqui hi van propietats responisves*/
+
+@media (max-width: 480px)
+    /*aqui va la versio mobil*/
+{
+
+
+}
+
+@media (min-width: 481px) and (max-width:1279px)
+{
+
+    
+}
+
+@media (max-width: 12804px)
+{
+
+    
+}
