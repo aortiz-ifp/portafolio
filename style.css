@@ -30,6 +30,9 @@ body{
     height: 64.25rem;
     width: 60rem;
     background: rgb(10, 12, 69);
+    background-image: url(img/textura.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     float: left;
 }
 
