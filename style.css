@@ -1,5 +1,6 @@
 :root{
     /*aqui hi van les variables*/
+    --tipografia1: "Style Script", cursive;
 }
 
 *{
@@ -9,8 +10,13 @@
     border: 0:
 }
 
+/*aqui hi van les fonts personalitzades*/
+
 @font-face {
-    /*aqui hi van les fonts personalitzades*/
+    font-family: "Style Script", cursive;
+    src: url('fonts/StyleScript-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
 }
 
     /*aqui hi van les propietats generals*/
@@ -27,7 +33,7 @@ body{
     float: left;
 }
 
-h1{
+.portafoli{
     color: white;
     text-align: center;
     line-height: 64rem;
@@ -40,6 +46,8 @@ p{
     left: 50px;
     color: red;
     float: left;
+    font-size: 50px;
+    font-family: var(--tipografia1);
 }
 
 .cos{
@@ -47,12 +55,15 @@ p{
 }
 
 ul{
-    left: 40rem;
+    width: 65rem;
+    margin: auto;
+    line-height: 10rem;
+    float: left;
 }
 
 li{
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 15% 15% 0 0;
     background: #fff;
     margin: 5rem 5rem 0 1rem;
@@ -69,13 +80,6 @@ a:link{
     line-height: 10rem;
     color: black;
     text-decoration: none;
-}
-
-ul{
-    width: 60rem;
-    margin: auto;
-    line-height: 10rem;
-    float: left;
 }
 
 li:hover{
