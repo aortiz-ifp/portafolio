@@ -35,19 +35,21 @@ body{
 
 .portafoli{
     color: white;
+    margin-left: 8rem;
     text-align: center;
-    line-height: 64rem;
-    font-size: 80px;
+    line-height: 60rem;
+    font-size: 90px;
     float: left;
 }
 
-p{
-    line-height: 64rem;
-    left: 50px;
+.nombre{
+    line-height: 64.25rem;
+    right: 130px;
     color: red;
     float: left;
-    font-size: 50px;
+    font-size: 75px;
     font-family: var(--tipografia1);
+    position: relative;
 }
 
 .cos{
@@ -55,15 +57,15 @@ p{
 }
 
 ul{
-    width: 65rem;
+    width: 64.25rem;
     margin: auto;
     line-height: 10rem;
     float: left;
 }
 
 li{
-    width: 15rem;
-    height: 15rem;
+    width: 11rem;
+    height: 12rem;
     border-radius: 15% 15% 0 0;
     background: #fff;
     margin: 5rem 5rem 0 1rem;
