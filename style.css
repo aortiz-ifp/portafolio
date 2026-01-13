@@ -27,13 +27,16 @@
 
     /*aqui hi van les propietats generals*/
 
+html{
+    height: 100%;
+}
+
 body{
     background: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cap{
-    height: 64rem;
+    height: 70rem;
     width: 60rem;
     background: rgb(10, 12, 69);
     background-image: url(img/textura.svg);
@@ -47,6 +50,8 @@ body{
     margin-left: 8rem;
     text-align: center;
     line-height: 60rem;
+    font-family: var(--tipografia2);
+    font-weight: 800;
     font-size: 90px;
     float: left;
 }
@@ -71,8 +76,8 @@ ul{
 }
 
 li{
-    width: 11rem;
-    height: 12rem;
+    width: 13rem;
+    height: 14rem;
     border-radius: 15% 15% 0 0;
     background: #fff;
     margin: 5rem 5rem 0 1rem;
@@ -82,7 +87,8 @@ li{
     left: 40px;
     float: left;
     list-style-type: none;
-    text-align: left;
+    text-align: right;
+    transition: 0.5s;
 }
 
 a:visited{
@@ -97,6 +103,7 @@ a:link{
 
 li:hover{
     opacity: 50%;
+    scale: 103%;
 }
 
 /*aqui hi van propietats responisves*/
