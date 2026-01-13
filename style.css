@@ -1,6 +1,7 @@
 :root{
     /*aqui hi van les variables*/
     --tipografia1: "Style Script", cursive;
+    --tipografia2: "Inter", sans-serif;
 }
 
 *{
@@ -17,6 +18,11 @@
     src: url('fonts/StyleScript-Regular.ttf') format('ttf');
     font-weight: 400;
     font-style: normal;
+
+    font-family: "Inter", sans-serif;
+    src: url('fonts/Inter_18pt-Black.ttf') format(ttf);
+    font-weight: 900;
+    font-style: normal; 
 }
 
     /*aqui hi van les propietats generals*/
@@ -27,9 +33,12 @@ body{
 }
 
 .cap{
-    height: 64.25rem;
+    height: 64rem;
     width: 60rem;
     background: rgb(10, 12, 69);
+    background-image: url(img/textura.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     float: left;
 }
 
@@ -43,7 +52,7 @@ body{
 }
 
 .nombre{
-    line-height: 64.25rem;
+    line-height: 64rem;
     right: 130px;
     color: red;
     float: left;
@@ -52,15 +61,13 @@ body{
     position: relative;
 }
 
-.cos{
-    background: red;
-}
-
 ul{
-    width: 64.25rem;
-    margin: auto;
-    line-height: 10rem;
+    width: 64rem;
+    height: 64rem;
+    left: 9rem;
+    line-height: 12rem;
     float: left;
+    position: relative;
 }
 
 li{
@@ -69,18 +76,22 @@ li{
     border-radius: 15% 15% 0 0;
     background: #fff;
     margin: 5rem 5rem 0 1rem;
+    font-family: var(--tipografia2);
+    font-size: 90px;
+    font-weight: 900;
+    left: 40px;
     float: left;
     list-style-type: none;
-    text-align: center;
+    text-align: left;
 }
 
 a:visited{
-    color: black;
+    color: red;
 }
 
 a:link{
     line-height: 10rem;
-    color: black;
+    color: red;
     text-decoration: none;
 }
 
