@@ -36,13 +36,14 @@ body{
 }
 
 .cap{
-    height: 70rem;
+    height: 100vh;
     width: 60rem;
     background: rgb(10, 12, 69);
     background-image: url(img/textura.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     float: left;
+    overflow: hidden;
 }
 
 .portafoli{
@@ -66,18 +67,23 @@ body{
     position: relative;
 }
 
+.cos{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
 ul{
     width: 64rem;
-    height: 64rem;
+    height: 100vh;
     left: 9rem;
-    line-height: 12rem;
+    line-height: 13rem;
     float: left;
     position: relative;
 }
 
 li{
     width: 13rem;
-    height: 14rem;
+    height: 13rem;
     border-radius: 15% 15% 0 0;
     background: #fff;
     margin: 5rem 5rem 0 1rem;
@@ -87,8 +93,23 @@ li{
     left: 40px;
     float: left;
     list-style-type: none;
-    text-align: right;
+    text-align: center;
     transition: 0.5s;
+}
+
+.ex1, .ex2, .ex3, .ex4, .ex5, .ex6, .ex7, .ex8, .ex9{
+    width: 13rem;
+    height: 2rem;
+    background: rgb(10, 12, 69);
+    font-family: var(--tipografia2);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+
+.ex1{
 }
 
 a:visited{
@@ -96,7 +117,7 @@ a:visited{
 }
 
 a:link{
-    line-height: 10rem;
+    line-height: 13rem;
     color: red;
     text-decoration: none;
 }
