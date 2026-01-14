@@ -50,7 +50,7 @@ body{
     color: white;
     margin-left: 8rem;
     text-align: center;
-    line-height: 60rem;
+    line-height: 61rem;
     font-family: var(--tipografia2);
     font-weight: 800;
     font-size: 90px;
@@ -58,7 +58,7 @@ body{
 }
 
 .nombre{
-    line-height: 64rem;
+    line-height: 65rem;
     right: 130px;
     color: red;
     float: left;
@@ -69,13 +69,13 @@ body{
 
 .cos{
     height: 100vh;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
 ul{
     width: 64rem;
     height: 100vh;
-    left: 9rem;
+    left: 13rem;
     line-height: 13rem;
     float: left;
     position: relative;
@@ -86,7 +86,7 @@ li{
     height: 13rem;
     border-radius: 15% 15% 0 0;
     background: #fff;
-    margin: 5rem 5rem 0 1rem;
+    margin: 5.8rem 5rem 0 2rem;
     font-family: var(--tipografia2);
     font-size: 90px;
     font-weight: 900;
@@ -102,14 +102,11 @@ li{
     height: 2rem;
     background: rgb(10, 12, 69);
     font-family: var(--tipografia2);
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
+    line-height: 2rem;
     text-align: center;
     color: #fff;
-    float: left;
-}
-
-.ex1{
 }
 
 a:visited{
@@ -123,7 +120,6 @@ a:link{
 }
 
 li:hover{
-    opacity: 50%;
     scale: 103%;
 }
 
