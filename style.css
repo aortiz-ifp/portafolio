@@ -32,7 +32,7 @@ html{
 }
 
 body{
-    background: lightgray;
+    background: linear-gradient(90deg, lightgray, rgb(198, 198, 198), rgb(159, 159, 159));
 }
 
 .cap{
