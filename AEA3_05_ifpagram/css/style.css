@@ -1,0 +1,311 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.contenidor{
+    width: 1716px;
+    margin: auto;
+}
+
+.nav{
+    height: 166px;
+}
+
+.friends{
+    height: 180px;
+    width: 1300px;
+    margin: auto;
+}
+
+.pics{
+    height: 1860px;
+}
+
+.logo{
+    width: 204px;
+    height: 36px;
+    float: left;
+    background-image: url(../img/logo.jpg);
+    margin: 50px 0 0 0;
+}
+
+.menu{
+    width: 304px;
+    height: 54px;
+    float: left;
+    margin: 40px 0 0 486px;
+}
+
+.menu ul li{
+    width: 40px;
+    height: 40px;
+    margin: -8px 11px;
+    float: left;
+    display: block;
+    background-image: url(../img/menu.jpg);
+}
+
+.menu ul li:hover{
+    opacity: 0.7;
+}
+
+.inici{
+    background-position: -5px, -10px;
+}
+
+.cerca{
+    background-position: -90px, 0;
+}
+
+.directes{
+    background-position: -173px, 0;
+}
+
+.favorits{
+    background-position: -258px, 0;
+}
+
+.perfil{
+    width: 80px;
+    height: 120px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.foto{
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-image: url(../img/perfil.jpg);
+    background-size: cover;
+    border: brown 5px solid;
+    box-shadow: inset 0px 0px 2px white;
+}
+
+.perfil:hover{
+    opacity: 1;
+}
+
+.afegir{
+    height: 20px;
+    width: 20px;
+    background: blue;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    left: 60px;
+    top: -80px;
+    color: white;
+    line-height: 20px;
+}
+
+.Miriam{
+    background-image: url(../img/perfil\ 1.webp);
+}
+
+.Pol{
+    background-image: url(../img/perfil\ 2.jpg);
+}
+
+.Liz{
+    background-image: url(../img/perfil\ 3.jpeg);
+}
+
+.Valeria{
+    background-image: url(../img/perfil\ 4.jpg);
+}
+
+.Silvia{
+    background-image: url(../img/perfil\ 5.webp);
+}
+
+.Brenda{
+    background-image: url(../img/perfil\ 6.jpeg);
+}
+
+.Ale{
+    background-image: url(../img/perfil\ 7.jpeg);
+}
+
+.Tolga{
+    background-image: url(../img/perfil\ 8.jpeg);
+}
+
+.Cris{
+    background-image: url(../img/perfil\ 9.jpg);
+}
+
+.Alex{
+    background-image: url(../img/perfil\ 10.jpeg);
+}
+
+.post{
+    width: 536px;
+    height: 620px;
+    float: left;
+    margin: 18px;
+}
+
+.i1{
+    width: 536px;
+    height: 536px;
+    background-image: url(../img/ifpagram2_14.jpg);
+}
+
+.i2{
+    width: 536px;
+    height: 536px;
+    background-image: url(../img/ifpagram2_16.jpg);
+}
+
+.i3{
+    width: 536px;
+    height: 536px;
+    background-image: url(../img/ifpagram2_18.jpg);
+}
+
+.i4{
+    width: 536px;
+    height: 536px;
+    background-image: url(../img/ifpagram2_23.jpg);
+}
+
+.i5{
+    width: 536px;
+    height: 536px;
+    background-image: url(../img/ifpagram2_24.jpg);
+}
+
+.i6{
+    width: 536px;
+    height: 536px;
+    background-image: url(../img/ifpagram2_25.jpg);
+}
+
+.i7{
+    width: 536px;
+    height: 536px;
+    background-image: url(../img/ifpagram2_29.jpg);
+}
+
+.i8{
+    width: 536px;
+    height: 536px;
+    background-image: url(../img/ifpagram2_30.jpg);
+}
+
+.i9{
+    width: 536px;
+    height: 536px;
+    background-image: url(../img/ifpagram2_31.jpg);
+}
+
+.info{
+    width: 268px;
+    height: 84px;
+    float: left;
+}
+
+.reaccions{
+    width: 268px;
+    height: 84px;
+    float: left;
+}
+
+.autor{
+    width: 50px;
+    height: 50px;
+    background: red;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+    background-image: url(../img/perfil\ 8.jpeg);
+    background-size: cover;
+}
+
+.usuari, .quan{
+    height: 25px;
+    width: 198px;
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+.quan{
+    color: gray;
+    margin: 0;
+    font-size: 12px;
+}
+
+.likes{
+    width: 175px;
+    height: 25px;
+    margin: 10px 10px 0;
+    float: left;
+    text-align: right;
+}
+
+.cors{
+    width: 35px;
+    height: 25px;
+    margin: 10px 0 0 0;
+    float: left;
+    background-image: url(../img/menu.jpg);
+    background-position: 97%;
+}
+
+.cors:hover{
+    opacity: 0.7;
+}
+
+.mes{
+    width: 30px;
+    height: 25px;
+    margin: 10px 0;
+    float: left;
+    text-align: center;
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+}
+
+.cor{
+  margin: 0.7rem 0 0 0;
+  width: 1rem;
+  height: 1rem;
+  background-image: url(https://www.svgrepo.com/show/532473/heart.svg);
+  background-size: 1rem 1rem;
+  position: relative;
+  float: left;
+}
+
+.cor label{
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/2560px-Heart_coraz%C3%B3n.svg.png?20110326231420);
+  background-size: 1rem 1rem;
+  float: left;
+
+}
+
+.cor input[type=checkbox]:checked+label{
+  opacity: 1;
+}
+
+.likes{
+    width: 50%;
+    float: left;
+}
+
+.mes{
+    clear: both;
+}
