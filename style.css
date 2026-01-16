@@ -120,9 +120,9 @@ li{
 .peu{
     width: 11rem;
     height: 4rem;
-    background-image: url(img/iconos.svg);
-    background-color: blue;
+    background-image: url(img/icones.svg);
     left: 85%;
+    top: 1%;
     position: relative;
 }
 
