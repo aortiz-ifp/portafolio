@@ -46,11 +46,16 @@ body{
     overflow: hidden;
 }
 
+.titol{
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
 .portafoli{
     color: white;
-    margin-left: 8rem;
     text-align: center;
-    line-height: 61rem;
     font-family: var(--tipografia2);
     font-weight: 800;
     font-size: 90px;
@@ -58,9 +63,9 @@ body{
 }
 
 .nombre{
-    line-height: 65rem;
     right: 130px;
     color: red;
+    top: 2rem;
     float: left;
     font-size: 75px;
     font-family: var(--tipografia1);
@@ -70,27 +75,30 @@ body{
 .cos{
     height: 100vh;
     overflow: hidden;
+    position: relative;
 }
 
 ul{
-    width: 64rem;
-    height: 100vh;
-    left: 13rem;
+    width: 54rem;
+    height: 56rem;
+    margin: auto;
     line-height: 13rem;
-    float: left;
-    position: relative;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 li{
     width: 13rem;
     height: 13rem;
     border-radius: 15% 15% 0 0;
-    background: #fff;
-    margin: 5.8rem 5rem 0 2rem;
+    background-color: #fff;
+    margin: 2.5rem;
     font-family: var(--tipografia2);
     font-size: 90px;
     font-weight: 900;
-    left: 40px;
     float: left;
     list-style-type: none;
     text-align: center;
@@ -109,6 +117,19 @@ li{
     color: #fff;
 }
 
+.peu{
+    width: 11rem;
+    height: 4rem;
+    background-image: url(img/iconos.svg);
+    background-color: blue;
+    left: 85%;
+    position: relative;
+}
+
+.gmail{
+    background-image: url()
+}
+
 a:visited{
     color: red;
 }
@@ -120,6 +141,19 @@ a:link{
 }
 
 li:hover{
+    scale: 103%;
+}
+
+.horari:hover{
+    background-image: url(img/horari.svg);
+}
+
+.horari:hover > a {
+    visibility: hidden;
+}
+
+.icones:hover{
+    opacity: 50%;
     scale: 103%;
 }
 
