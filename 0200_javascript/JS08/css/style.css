@@ -1,0 +1,115 @@
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #cub{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+
+    .cara{
+        width: 80px;
+        height: 80px;
+        color: black;
+        font-size: 80px;
+        text-align: center;
+        line-height: 80px;
+        font-family: arial;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .blava{
+        background: skyblue;
+        transform-origin: left;
+        transform: translateZ(-80px);
+    }
+
+    .groga{
+        background: yellow;
+        transform: rotateX(90deg);
+        transform-origin: bottom;
+    }
+
+    .vermella{
+        background: red;
+        transform: rotateY(90deg);
+        transform-origin: left;
+    }
+
+    .rosa{
+        background: pink;
+        transform: rotateY(-90deg);
+        transform-origin: right;
+    }
+
+    .lila{
+        background: violet;
+        transform: rotateX(-90deg);
+        transform-origin: top;
+    }
+
+    .verda{
+        background: green;
+        transform: rotate(0deg);
+    }
+
+    .contenidor{
+        margin: 10rem auto;
+        width: 80px;
+        height: 80px;
+        -webkit-perspective: 320px;
+        perspective: 160px;
+    }
+
+    /*
+    .cub:hover{
+        transform: rotateX(180deg) rotateZ(45deg);
+    }
+    */
+
+    .joystick{
+        position: relative;
+        height: 20rem;
+        width: 20rem;
+        margin: auto;
+    }
+
+    .boto{
+        width: 6rem;
+        height: 6rem;
+        background: beige;
+        color: green;
+        border: solid 3px green;
+        border-radius: 10px;
+        font-size: 3rem;
+        text-align: center;
+        line-height: 6rem;
+        position: absolute;
+    }
+
+    #amunt{
+        top: 0;
+        left: 7rem;
+    }
+
+    #avall{
+       top: 14rem;
+       left: 7rem;  
+    }
+
+    #esquerra{
+        top: 7rem;
+        left: 0;
+    }
+
+    #dreta{
+        top: 7rem;
+        left: 14rem;
+
+    }
