@@ -140,6 +140,7 @@ li{
     height: 4rem;
     background-image: url("img/instagram.png");
     background-size: cover;
+    background-color: red;
 }
 
 a:visited{
