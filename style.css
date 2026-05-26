@@ -130,14 +130,18 @@ li{
     display: inline-block;
     width: 11rem;
     height: 4rem;
+    left: 85%;
+    top: 1%;
     background-image: url("img/gmail.png");
     background-size: cover;
 }
 
 .instagram {
     display: inline-block;
-    width: 6rem;
+    width: 11rem;
     height: 4rem;
+    left: 85%;
+    top: 1%;
     background-image: url("img/instagram.png");
     background-size: cover;
     background-color: red;
