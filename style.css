@@ -200,13 +200,16 @@ li:hover{
 
     .cap{
         width: 100%;
-        height: 35vh;
+        height: 25vh;
         float: none;
-        background-size: cover;
+    }
+
+    .cos{
+        height: 75vh;
     }
 
     .titol{
-        width: 100%;
+        width: 90%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -215,52 +218,41 @@ li:hover{
 
     .portafoli{
         float: none;
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
     .nombre{
         float: none;
         position: static;
-        font-size: 2.5rem;
-        margin-top: 1rem;
-    }
-
-    .cos{
-        height: 65vh;
-        overflow: hidden;
-    }
-
-    h1{
         font-size: 2rem;
-        line-height: 5rem;
+        margin-top: .3rem;
     }
 
     ul{
-        width: 100%;
-        height: calc(65vh - 5rem);
         position: static;
+        width: 100%;
+        height: calc(75vh - 2rem);
+        margin-top: 1rem;
         transform: none;
-        margin: 0;
-        overflow-y: auto;
-
         display: flex;
         flex-direction: column;
         align-items: center;
+        overflow-y: auto;
     }
 
     li{
         width: 80%;
         height: 6rem;
-        margin: 0.75rem 0;
+        margin: .8rem 0;
+        float: none;
         font-size: 3rem;
         line-height: 6rem;
-        float: none;
         border-radius: 1rem;
     }
 
-    .ex1, .ex2, .ex3, .ex4, .ex5, .ex6, .ex7, .ex8, .ex9, .jvex1, .jvex2, .jvex3, .jvex4, .jvex5, .jvex6, .jvex7, .jvex8{
+    .ex1, .ex2, .ex3, .ex4, .ex5, .ex6, .ex7, .ex8, .ex9, .jvex1,.jvex2,.jvex3,.jvex4,.jvex5,.jvex6,.jvex7,.jvex8{
         width: 100%;
-        font-size: 0.8rem;
+        font-size: .8rem;
     }
 
     a:link{
@@ -268,32 +260,92 @@ li:hover{
     }
 
     .peu{
-        width: 100%;
-        height: auto;
         position: fixed;
-        bottom: 1rem;
-        left: 0;
-        top: auto;
-        text-align: center;
-    }
-
-    .icones{
-        position: static;
+        right: 1rem;
+        top: 1rem;
+        width: auto;
+        height: auto;
     }
 
     .gmail, .instagram{
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         background-size: contain;
-        background-repeat: no-repeat;
-        margin: 0 0.5rem;
     }
 }
 
 @media (min-width: 481px) and (max-width:1279px)
 {
+    .cap{
+        width: 35%;
+        height: 100vh;
+    }
 
-    
+    .cos{
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .titol{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 90%;
+        text-align: center;
+    }
+
+    .portafoli{
+        float: none;
+        font-size: 4rem;
+    }
+
+    .nombre{
+        float: none;
+        position: static;
+        font-size: 3rem;
+        margin-top: .5rem;
+    }
+
+    ul{
+        width: 90%;
+        height: 80vh;
+
+        top: 52%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        overflow-y: auto;
+    }
+
+    li{
+        width: 9rem;
+        height: 9rem;
+
+        margin: 1rem;
+
+        font-size: 4rem;
+        line-height: 9rem;
+    }
+
+    .ex1,.ex2,.ex3,.ex4,.ex5,.ex6,.ex7,.ex8,.ex9,
+    .jvex1,.jvex2,.jvex3,.jvex4,.jvex5,.jvex6,.jvex7,.jvex8{
+        width: 9rem;
+        font-size: .8rem;
+    }
+
+    a:link{
+        line-height: 9rem;
+    }
+
+    .peu{
+        width: 100%;
+        left: 0;
+        top: 1rem;
+        text-align: right;
+    }
 }
 
 @media (max-width: 12804px)
