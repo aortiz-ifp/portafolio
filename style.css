@@ -128,16 +128,16 @@ li{
 
 .gmail {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 11rem;
+    height: 4rem;
     background-image: url("img/gmail.png");
     background-size: cover;
 }
 
 .instagram {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 11rem;
+    height: 4rem;
     background-image: url("img/instagram.png");
     background-size: cover;
 }
