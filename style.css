@@ -126,19 +126,17 @@ li{
     position: relative;
 }
 
-.gmail {
-    display: inline-block;
-    width: 4rem;
-    height: 4rem;
-    background-image: url("img/gmail.png");
-    background-color: blue;
-}
-
 .instagram {
     display: inline-block;
     width: 4rem;
     height: 4rem;
-    background-image: url("img/instagram.png");
+    background-color: blue;
+}
+
+.gmail {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
     background-color: red;
 }
 
