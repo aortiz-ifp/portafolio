@@ -126,8 +126,20 @@ li{
     position: relative;
 }
 
-.gmail{
-    background-image: url()
+.gmail {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url("img/gmail.png");
+    background-size: cover;
+}
+
+.instagram {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url("img/instagram.png");
+    background-size: cover;
 }
 
 a:visited{
@@ -142,6 +154,14 @@ a:link{
 
 li:hover{
     scale: 103%;
+}
+
+.horari:hover{
+    background-image: url(img/horari.svg);
+}
+
+.feedly:hover > a {
+    visibility: hidden;
 }
 
 .horari:hover{
