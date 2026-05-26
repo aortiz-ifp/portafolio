@@ -128,7 +128,7 @@ li{
 
 .gmail {
     display: inline-block;
-    width: 6rem;
+    width: 4rem;
     height: 4rem;
     background-image: url("img/gmail.png");
     background-color: blue;
@@ -136,7 +136,7 @@ li{
 
 .instagram {
     display: inline-block;
-    width: 11rem;
+    width: 4rem;
     height: 4rem;
     background-image: url("img/instagram.png");
     background-size: cover;
