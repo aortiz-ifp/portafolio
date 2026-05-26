@@ -134,6 +134,7 @@ li{
     top: 1%;
     background-image: url("img/gmail.png");
     background-size: cover;
+    background-color: blue;
 }
 
 .instagram {
