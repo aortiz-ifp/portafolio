@@ -126,6 +126,22 @@ li{
     position: relative;
 }
 
+.gmail {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url("img/gmail.png");
+    background-size: cover;
+}
+
+.instagram {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url("img/instagram.png");
+    background-size: cover;
+}
+
 a:visited{
     color: red;
 }
