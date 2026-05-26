@@ -118,6 +118,18 @@ li{
     color: #fff;
 }
 
+.jvex1, .jvex2, .jvex3, .jvex4, .jvex5, .jvex6, .jvex7, .jvex8{
+    width: 13rem;
+    height: 2rem;
+    background: rgb(10, 12, 69);
+    font-family: var(--tipografia2);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
 h1{
     text-align: center;
     font-family: var(--tipografia2);
@@ -182,8 +194,100 @@ li:hover{
 @media (max-width: 480px)
     /*aqui va la versio mobil*/
 {
+    body{
+        overflow-x: hidden;
+    }
 
+    .cap{
+        width: 100%;
+        height: 35vh;
+        float: none;
+        background-size: cover;
+    }
 
+    .titol{
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .portafoli{
+        float: none;
+        font-size: 3rem;
+    }
+
+    .nombre{
+        float: none;
+        position: static;
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .cos{
+        height: 65vh;
+        overflow: hidden;
+    }
+
+    h1{
+        font-size: 2rem;
+        line-height: 5rem;
+    }
+
+    ul{
+        width: 100%;
+        height: calc(65vh - 5rem);
+        position: static;
+        transform: none;
+        margin: 0;
+        overflow-y: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li{
+        width: 80%;
+        height: 6rem;
+        margin: 0.75rem 0;
+        font-size: 3rem;
+        line-height: 6rem;
+        float: none;
+        border-radius: 1rem;
+    }
+
+    .ex1, .ex2, .ex3, .ex4, .ex5, .ex6, .ex7, .ex8, .ex9, .jvex1, .jvex2, .jvex3, .jvex4, .jvex5, .jvex6, .jvex7, .jvex8{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    a:link{
+        line-height: 6rem;
+    }
+
+    .peu{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        bottom: 1rem;
+        left: 0;
+        top: auto;
+        text-align: center;
+    }
+
+    .icones{
+        position: static;
+    }
+
+    .gmail, .instagram{
+        width: 3rem;
+        height: 3rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0 0.5rem;
+    }
 }
 
 @media (min-width: 481px) and (max-width:1279px)
