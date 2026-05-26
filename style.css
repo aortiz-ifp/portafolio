@@ -79,7 +79,7 @@ body{
 }
 
 ul{
-    width: 54rem;
+    width: 56rem;
     height: 56rem;
     margin: auto;
     line-height: 13rem;
@@ -88,6 +88,7 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow-y: scroll;
 }
 
 li{
@@ -117,27 +118,38 @@ li{
     color: #fff;
 }
 
+h1{
+    text-align: center;
+    font-family: var(--tipografia2);
+}
+
 .peu{
     width: 11rem;
     height: 4rem;
-    background-image: url(img/icones.svg);
     left: 85%;
     top: 1%;
     position: relative;
 }
 
-.instagram {
+.instagram{
     display: inline-block;
     width: 4rem;
     height: 4rem;
-    background-color: blue;
+    background-image: url(img/instagram.svg);
+    transition: 0.1s;
 }
 
-.gmail {
+.gmail{
     display: inline-block;
     width: 4rem;
     height: 4rem;
-    background-color: red;
+    background-image: url(img/gmail.svg);
+    transition: 0.1s;
+}
+
+.icones{
+    position: relative;
+    left: 1rem;
 }
 
 a:visited{
@@ -154,26 +166,14 @@ li:hover{
     scale: 103%;
 }
 
-.horari:hover{
-    background-image: url(img/horari.svg);
-}
-
-.feedly:hover > a {
-    visibility: hidden;
-}
-
-.horari:hover{
-    background-image: url(img/horari.svg);
-}
-
-.horari:hover > a {
-    visibility: hidden;
-}
-
-.icones:hover{
+.gmail:hover{
     opacity: 50%;
-    scale: 103%;
 }
+
+.instagram:hover{
+    opacity: 50%;
+}
+
 
 /*aqui hi van propietats responisves*/
 
