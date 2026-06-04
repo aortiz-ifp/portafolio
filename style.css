@@ -4,11 +4,13 @@
     --tipografia2: "Inter", sans-serif;
 }
 
+
 *{
     /*aqui hi va el reset*/
     margin: 0;
     padding: 0;
     border: 0;
+    position: relative;
 }
 
 /*aqui hi van les fonts personalitzades*/
@@ -47,8 +49,10 @@ body{
 }
 
 .titol{
+    text-align: center;
+    margin-top: ;
     top: 50%;
-    left: 25%;
+    left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
 }
@@ -79,16 +83,21 @@ body{
 }
 
 ul{
-    width: 56rem;
-    height: 56rem;
-    margin: auto;
+    max-width: 56rem;
+    height: 100vh;
+    margin: 0 auto;
     line-height: 13rem;
-    position: absolute;
     overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow-y: scroll;
+
+    overflow-y: auto;
+    text-align: center;
+
+         -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
+}
+
+ul::-webkit-scrollbar { 
+    display: none;  /* Older Safari and Chromium */
 }
 
 li{
@@ -100,7 +109,7 @@ li{
     font-family: var(--tipografia2);
     font-size: 90px;
     font-weight: 900;
-    float: left;
+    display: inline-block;
     list-style-type: none;
     text-align: center;
     transition: 0.5s;
@@ -140,9 +149,9 @@ h1{
 .peu{
     width: 11rem;
     height: 4rem;
-    left: 85%;
+    right: 1%;
     top: 1%;
-    position: relative;
+    position:absolute;
 }
 
 .instagram{
@@ -239,17 +248,20 @@ li:hover{
     }
 
     li{
-        width: 85%;
-        height: 6rem;
-        margin: 1rem 0;
-        float: none;
+        width: 80%;
+        height: 12rem;
+        margin: 1rem 0 1rem 0;
+        float: left;
         font-size: 3rem;
         line-height: 6rem;
+        border-radius: 10% 10% 0 0;
     }
 
     .ex1,.ex2,.ex3,.ex4,.ex5,.ex6,.ex7,.ex8,.ex9,
     .jvex1,.jvex2,.jvex3,.jvex4,.jvex5,.jvex6,.jvex7,.jvex8{
         width: 100%;
+        margin:0;
+        top: -2rem;
     }
 
     .peu{
@@ -272,6 +284,7 @@ li:hover{
     .cap{
         width: 35%;
         height: 100vh;
+        background-size: cover;
     }
 
     .cos{
@@ -290,13 +303,13 @@ li:hover{
 
     .portafoli{
         float: none;
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 
     .nombre{
         float: none;
         position: static;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: .5rem;
     }
 
@@ -310,7 +323,10 @@ li:hover{
         transform: translate(-50%, -50%);
 
         overflow-y: auto;
+        
     }
+
+
 
     li{
         width: 9rem;
